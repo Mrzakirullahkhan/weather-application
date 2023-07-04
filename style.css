@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Alkatra&family=Hachi+Maru+Pop&family=Lobster+Two&family=Montserrat:wght@100&family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@100;200&family=Roboto:wght@500;700;900&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    max-width: 100%;
+    height: 100vh;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.my-container {
+    max-width: 400px;
+    height: 520px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    background-color: rgb(255 237 213);
+}
+
+.main-section {
+    width: 90%;
+    height: 180px;
+    background-color: #fdfdfd;
+    padding: 15px 15px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    /* background-color: yellow; */
+
+}
+
+.search-section input {
+    border: none;
+    outline: none;
+    font-family: 'Roboto Slab', serif;
+    height: 35px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 60%;
+    padding: 0px 10px;
+    border-radius: 30px;
+    background-color: #fdfdfd;
+}
+
+.fa-magnifying-glass {
+    background-color: #fdfdfd;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.country-name {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 0px;
+    width: 100%;
+}
+
+.country-name p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6c737f;
+}
+
+.section1 {
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cloudy {
+    color: #404040;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.degree {
+    font-size: 40px;
+    font-weight: bold;
+    color: #3d4655;
+}
+
+.temperature {
+    color: #a9a9a9;
+}
+
+.allDetail {
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px;
+    padding: 5px 0px;
+    line-height: 33px;
+    width: 100%;
+}
+
+.allValues p {
+    font-weight: bold;
+    color: #585d66;
+}
+
+.names p {
+    color: #4d4c4c;
+}
